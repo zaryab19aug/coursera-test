@@ -8,10 +8,10 @@ function getRandomInt(min, max) {
 function geti()
 {
 
-var x = getRandomInt(0,30);
+var x = getRandomInt(0,40);
 var myElements = document.querySelectorAll(".banner");
    
-if(x == 0 || x == 1 || x == 2)
+if( x == 1 || x == 2)
 	myElements[0].style.backgroundImage = "url('img/1.jpg')";
 else if (x == 3 || x == 4)
 	myElements[0].style.backgroundImage = "url('img/2.jpg')";
@@ -39,8 +39,16 @@ else if (x == 25 || x == 26)
 	myElements[0].style.backgroundImage = "url('img/13.jpg')";
 else if (x == 27 || x == 28)
 	myElements[0].style.backgroundImage = "url('img/14.jpg')";
-else 
+else if (x == 29 || x == 30)
 	myElements[0].style.backgroundImage = "url('img/15.jpg')";
+else if (x == 31 || x == 32)
+	myElements[0].style.backgroundImage = "url('img/16.jpg')";
+else if (x == 33 || x == 34)
+	myElements[0].style.backgroundImage = "url('img/17.jpg')";
+else if (x == 35 || x == 36)
+	myElements[0].style.backgroundImage = "url('img/18.jpg')";
+else 
+	myElements[0].style.backgroundImage = "url('img/19.jpg')";
 }
 
 $( document ).ready(function() {
